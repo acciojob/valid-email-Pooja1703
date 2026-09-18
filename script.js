@@ -1,5 +1,5 @@
 function validEmail(str) {
-   let pattern = /^[\w.-]+@[\w-]+\.[\w]{2,3}$/;
+   let pattern = /^[A-Za-z0-9]+([.-][A-Za-z0-9]+)*@[A-Za-z0-9]+([.-][A-Za-z0-9]+)*\.[A-Za-z]{2,3}$/;
   return pattern.test(str);
 }
 
